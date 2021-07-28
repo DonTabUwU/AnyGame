@@ -3,7 +3,7 @@ local player = game.Players.LocalPlayer
 local mouse = player:GetMouse()
 local runservice = game:GetService("RunService")
 local msg = Instance.new("Message", player.PlayerGui)
-msg.Text = "Exploits Support: Synapse Xen, SirHurt, ScriptWare v2, Senteil. Press ''T'' to close this window."
+msg.Text = "Exploits Support this script: Synapse Xen, SirHurt, ScriptWare v2, Senteil. Press ''T'' to close this window."
  
 mouse.KeyDown:Connect(function(key)
     if key == "t" then
